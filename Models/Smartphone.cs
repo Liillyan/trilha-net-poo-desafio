@@ -6,7 +6,7 @@ namespace DesafioPOO.Models
         private string Modelo{get; set; }
         private string Imei{get; set; }
         private int Memoria{get; set; }
-        // DONE!
+        
 
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
@@ -14,7 +14,7 @@ namespace DesafioPOO.Models
             Modelo = modelo;
             Imei = imei;
             Memoria = memoria;
-            // DONE!
+            
         }
 
         public void Ligar()
